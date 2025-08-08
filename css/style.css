@@ -50,7 +50,8 @@ nav a:nth-child(4) {	position:absolute; top:5px;	right:10px;}
 article>div { position:relative; width:100%; height:100%; overflow:hidden; cursor:pointer; }
 
 /* 배경이미지 삽입*/
-article .bg1 { background-image:url(../img/nbmain.jpg);}
+article .bg1 { }
+article .bg1 video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; }
 article .bg2 { background-image:url(../img/nb740.jpg);}
 article .bg3 { background-image:url(../img/NBFC.jpg);}
 article .bg4 { background-image:url(../img/NB1906.jpg);}
