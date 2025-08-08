@@ -39,7 +39,7 @@
 	<section>
 		<article>			
 			<div class="bg bg1">
-				<video src="img/newbalance.mp4" autoplay muted loop></video>
+				<video id="bg-video" src="img/newbalance.mp4" autoplay muted loop playsinline></video>
 				<span>IU with NB</span>
 			</div>			
 		</article>
@@ -129,6 +129,10 @@
 		</article>
 		
 	</section>
+
+	<script>
+		document.getElementById('bg-video').play();
+	</script>
 
 </body>
 </html>
